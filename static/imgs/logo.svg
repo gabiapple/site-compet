@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg3039"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   width="1016"
+   height="768"
+   sodipodi:docname="compet.svg">
+  <metadata
+     id="metadata3045">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3043" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="713"
+     id="namedview3041"
+     showgrid="false"
+     inkscape:zoom="0.17610677"
+     inkscape:cx="421.27142"
+     inkscape:cy="-604.42073"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer7" />
+  <a
+     id="a3053" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="text"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Pothana2000;-inkscape-font-specification:Pothana2000 Bold Italic"
+       x="726.49542"
+       y="224.68762"
+       id="text3876"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="726.49542"
+         y="224.68762"
+         style="font-size:110px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#008000;font-family:Ubuntu;-inkscape-font-specification:Ubuntu Italic"
+         id="tspan3880">COMPET</tspan><tspan
+         sodipodi:role="line"
+         x="736.92511"
+         y="312.35016"
+         style="font-size:60px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Ubuntu;-inkscape-font-specification:Ubuntu Italic"
+         id="tspan3894">Engenharia de </tspan><tspan
+         sodipodi:role="line"
+         x="726.49542"
+         y="387.35016"
+         style="font-size:60px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Ubuntu;-inkscape-font-specification:Ubuntu Italic"
+         id="tspan3882">Computação</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3884"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><flowRegion
+         id="flowRegion3886"><rect
+           id="rect3888"
+           width="836.1405"
+           height="228.55453"
+           x="38.329021"
+           y="319.40851" /></flowRegion><flowPara
+         id="flowPara3890" /></flowRoot>  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="pointer">
+    <path
+       inkscape:connector-curvature="0"
+       d="M 347.5632,332.36883 651.98964,511.32493 532.54926,548.9916 636.03372,686.81178 594.52455,718.11393 492.67136,577.72565 424.85202,678.81896 347.5632,332.36883"
+       id="path3510" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="squares"
+     style="display:inline">
+    <rect
+       style="fill:#00be00;fill-opacity:1"
+       id="rect3858"
+       width="63.881702"
+       height="69.560074"
+       x="59.301311"
+       y="212.939" />
+    <rect
+       style="fill:#00be00;fill-opacity:1"
+       id="rect3860"
+       width="73.818855"
+       height="73.818855"
+       x="131.70056"
+       y="114.98707" />
+    <rect
+       style="fill:#00be00;fill-opacity:1"
+       id="rect3862"
+       width="82.336411"
+       height="82.336411"
+       x="198.42143"
+       y="232.81331" />
+    <rect
+       style="fill:#00be00;fill-opacity:1"
+       id="rect3864"
+       width="99.371536"
+       height="99.371536"
+       x="204.09981"
+       y="349.21997" />
+    <rect
+       style="fill:#00be00;fill-opacity:1"
+       id="rect3868"
+       width="109.30869"
+       height="109.30869"
+       x="324.76523"
+       y="183.12753" />
+  </g>
+</svg>
