@@ -1,165 +1,111 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <title>COMPET</title>
+<div class="container">
 
-    <link href="static/assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="static/assets/css/style.css" rel="stylesheet">
-
-  </head>
-  <body>
-
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="/">
-                    <img class="pull-left" width="28" height="28" src="static/imgs/logo.png">
-                    COMPET
-                </a>
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="static/sobre.html">Sobre</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!-- CAROUSEL -->
-    <div class="container">
-
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <a class="item active" href="static/processo-seletivo.html">
-                    <figure class="cover banner" style="background-image: url('http://wallpaper.ultradownloads.com.br/280947_Papel-de-Parede-Darth-Vader-I-Want-You_1920x1080.jpg')"></figure>
-                    <div class="carousel-caption-fix">
-                        <h3>Processo Seletivo</h3>
-                        <p>Venha fazer parte do COMPET!</p>
-                    </div>
-                </a>
-
-                <a class="item" href="static/maratona-star-wars.html">
-                    <figure class="cover banner" style="background-image: url('http://bonnier.imgix.net/6810783-star-wars-logo-lqCJw2lYA-tuyHrcFQvPGQ.jpg')"></figure>
-                    <div class="carousel-caption-fix">
-                        <h3>Maratona Star Wars</h3>
-                        <p>Uma maratona de Star Wars pra comemorar o final do ano letivo!</p>
-                    </div>
-                </a>
-
-                <!-- TEMPLATE
-                <a class="item" href="static/maratona-star-wars.html">
-                    <figure class="cover" style="background-image: url('URL-DA-IMAGEM')"></figure>
-                    <div class="carousel-caption-fix">
-                        <h3>TITULO</h3>
-                        <p>DESCRICAO</p>
-                    </div>
-                </a> -->
-
-            </div>
-
-            <!-- Controls -->
-            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <a class="item active" href="/processo-seletivo">
+                <figure class="cover banner" style="background-image: url('static/imgs/fig-05.jpg')"></figure>
+                <div class="carousel-caption-fix">
+                    <h3>Processo Seletivo</h3>
+                    <p>Venha fazer parte do COMPET!</p>
+                </div>
             </a>
-            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+
+            <a class="item" href="/maratona-star-wars">
+                <figure class="cover banner" style="background-image: url('static/imgs/fig-06.jpg')"></figure>
+                <div class="carousel-caption-fix">
+                    <h3>Maratona Star Wars</h3>
+                    <p>Uma maratona de Star Wars pra comemorar o final do ano letivo!</p>
+                </div>
             </a>
-        </div>
-
-        <hr>
-
-        <div class="row">
-            <div class="col-sm-6 col-md-4">
-                <a href="static/processo-seletivo.html" class="thumbnail thumbnail-fix">
-                    <figure class="cover" style="background-image: url('http://wallpaper.ultradownloads.com.br/280947_Papel-de-Parede-Darth-Vader-I-Want-You_1920x1080.jpg')"></figure>
-                    <div class="caption">
-                        <h3>Processo Seletivo</h3>
-                        <p>Venha fazer parte do COMPET!</p>
-                    </div>
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <a href="static/maratona-star-wars.html" class="thumbnail thumbnail-fix">
-                    <figure class="cover" style="background-image: url('http://bonnier.imgix.net/6810783-star-wars-logo-lqCJw2lYA-tuyHrcFQvPGQ.jpg')"></figure>
-                    <span class="tag">Evento</span>
-                    <div class="caption">
-                        <h3>Maratona Star Wars</h3>
-                        <p>Uma maratona de Star Wars pra comemorar o final do ano letivo!</p>
-                    </div>
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <a href="static/mes-da-seguranca.html" class="thumbnail thumbnail-fix">
-                    <figure class="cover" style="background-image: url('http://webcomindia.biz/blog/wp-content/uploads/2015/06/image1.jpeg')"></figure>
-                    <span class="tag">Palestra</span>
-                    <div class="caption">
-                        <h3>Mês da Segurança</h3>
-                        <p>Evento de realizado pelo COMPET para promover o Mês da Segurança</p>
-                    </div>
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <a href="static/semana-cet.html" class="thumbnail thumbnail-fix">
-                    <figure class="cover" style="background-image: url('https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/20093_408123236039379_5442906760945526338_n.jpg?oh=a964a3c8128824e71ee2b57df31bd15e&oe=56DAA947&__gda__=1457185594_d3d8093ddc868cf5f105dc50c46529ff')"></figure>
-                    <span class="tag">Palestras</span>
-                    <span class="tag tag-2">Minicursos</span>
-                    <div class="caption">
-                        <h3>Semana C&T</h3>
-                        <p>Atividades realizadas pelo COMPET durante a Semana C&T.</p>
-                    </div>
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <a href="static/petrote.html" class="thumbnail thumbnail-fix">
-                    <figure class="cover" style="background-image: url('http://www.dnpphoto.com/portals/0/Images/Fotolia_32635285_XXL_party-fun.jpg')"></figure>
-                    <span class="tag">Evento</span>
-                    <div class="caption">
-                        <h3>PETrote</h3>
-                        <p>Recepção dos calouros realizada pelo COMPET.</p>
-                    </div>
-                </a>
-            </div>
 
             <!-- TEMPLATE
-            <div class="col-sm-6 col-md-4">
-                <a href="LINK" class="thumbnail thumbnail-fix">
-                    <figure class="cover" style="background-image: url('http://www.dnpphoto.com/portals/0/Images/Fotolia_32635285_XXL_party-fun.jpg')"></figure>
-                    <span class="tag">TAG</span>
-                    <span class="tag tag-2">TAG</span>
-                    <span class="tag tag-3">TAG</span>
-                    <span class="tag tag-4">TAG</span>
-                    <div class="caption">
-                        <h3>TITULO</h3>
-                        <p>DESCRICAO</p>
-                    </div>
-                </a>
-            </div> -->
+            <a class="item" href="/maratona-star-wars.html">
+                <figure class="cover" style="background-image: url('URL-DA-IMAGEM')"></figure>
+                <div class="carousel-caption-fix">
+                    <h3>TITULO</h3>
+                    <p>DESCRICAO</p>
+                </div>
+            </a> -->
+
         </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        </a>
     </div>
 
     <hr>
 
-    <footer class="footer">
-      <div class="container">
-        <p class="text-muted text-center">
-          COMPET 2016 - CEFET/MG
-        </p>
-      </div>
-    </footer>
+    <div class="row">
+        <div class="col-sm-6 col-md-4">
+            <a href="/processo-seletivo" class="thumbnail thumbnail-fix">
+                <figure class="cover" style="background-image: url('static/imgs/fig-05.jpg')"></figure>
+                <div class="caption">
+                    <h3>Processo Seletivo</h3>
+                    <p>Venha fazer parte do COMPET!</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="/maratona-star-wars" class="thumbnail thumbnail-fix">
+                <figure class="cover" style="background-image: url('/static/imgs/fig-06.jpg')"></figure>
+                <span class="tag">Evento</span>
+                <div class="caption">
+                    <h3>Maratona Star Wars</h3>
+                    <p>Uma maratona de Star Wars pra comemorar o final do ano letivo!</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="/mes-da-seguranca" class="thumbnail thumbnail-fix">
+                <figure class="cover" style="background-image: url('static/imgs/fig-03.jpg')"></figure>
+                <span class="tag">Palestra</span>
+                <div class="caption">
+                    <h3>Mês da Segurança</h3>
+                    <p>Evento de realizado pelo COMPET para promover o Mês da Segurança</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="/semana-cet" class="thumbnail thumbnail-fix">
+                <figure class="cover" style="background-image: url('static/imgs/fig-02.jpg')"></figure>
+                <span class="tag">Palestras</span>
+                <span class="tag tag-2">Minicursos</span>
+                <div class="caption">
+                    <h3>Semana C&T</h3>
+                    <p>Atividades realizadas pelo COMPET durante a Semana C&T.</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <a href="/petrote" class="thumbnail thumbnail-fix">
+                <figure class="cover" style="background-image: url('static/imgs/fig-01.jpg')"></figure>
+                <span class="tag">Evento</span>
+                <div class="caption">
+                    <h3>PETrote</h3>
+                    <p>Recepção dos calouros realizada pelo COMPET.</p>
+                </div>
+            </a>
+        </div>
 
-    <script src="static/assets/js/jquery.min.js"></script>
-    <script src="static/assets/js/bootstrap.min.js"></script>
-  </body>
-</html>
+        <!-- TEMPLATE
+        <div class="col-sm-6 col-md-4">
+            <a href="LINK" class="thumbnail thumbnail-fix">
+                <figure class="cover" style="background-image: url('http://www.dnpphoto.com/portals/0/Images/Fotolia_32635285_XXL_party-fun.jpg')"></figure>
+                <span class="tag">TAG</span>
+                <span class="tag tag-2">TAG</span>
+                <span class="tag tag-3">TAG</span>
+                <span class="tag tag-4">TAG</span>
+                <div class="caption">
+                    <h3>TITULO</h3>
+                    <p>DESCRICAO</p>
+                </div>
+            </a>
+        </div> -->
+    </div>
+</div>
