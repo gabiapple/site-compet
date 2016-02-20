@@ -98,3 +98,25 @@ p {
 .tag-4{
 	margin-top: 90px;
 }
+
+
+/*participantes-card*/
+
+.card{
+	border: 1px solid #DDD;
+	border-radius: 3px;
+	padding: 15px;
+	margin-bottom: 30px;
+	min-height: 230px
+}
+
+.card > img {
+	width: 64px;
+	height: 64px;
+}
+
+.card > a > img{
+	width: 16px;
+	height: 16px;
+	margin-right: 5px;
+}
