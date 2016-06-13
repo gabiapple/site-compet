@@ -1,9 +1,9 @@
 import web
-        
+
 urls = (
     '/', 'index',
     '/favicon.ico', 'icon',
-    '/([a-zA-Z-]*)', 'pages'
+    '/([a-zA-Z0-9-]*)', 'pages'
 )
 
 app = web.application(urls, globals())
