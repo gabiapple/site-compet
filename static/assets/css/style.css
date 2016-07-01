@@ -74,7 +74,7 @@ p {
 	box-shadow: 1px 1px 2px black;
 }
 
-.tag::after{    
+.tag::after{
 	content: '';
     display: block;
     width: 0;
@@ -107,7 +107,10 @@ p {
 	border-radius: 3px;
 	padding: 15px;
 	margin-bottom: 30px;
-	min-height: 230px
+	min-height: 230px;
+}
+.ex-members .card h5 {
+	visibility: hidden;
 }
 
 .card > img {
