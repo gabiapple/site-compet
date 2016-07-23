@@ -19,14 +19,17 @@ $ python code.py
 ```
 $ ssh compet@compet.decom.cefetmg.br
 <senha>
+```
 
 ## Atualizar repositório
+
 ```
 $ git pull
 ```
 
 
 ## Executar servidor
+
 ```
 $ cd site-compet
 $ sudo ./run
