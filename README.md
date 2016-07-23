@@ -14,7 +14,7 @@ $ python code.py
 ```
 
 
-## Máquinha Virtual
+## Acesso servidro
 
 ```
 $ ssh compet@compet.decom.cefetmg.br
