@@ -1,6 +1,7 @@
 # site-compet
 Site do PET de Engenharia da Computação do CEFET/MG
 
+
 ## Instalando dependências
 ```
 # pip install web.py
@@ -14,16 +15,18 @@ $ python code.py
 ```
 
 
-## Acesso servidro
+## Acesso servidor
 
 ```
 $ ssh compet@compet.decom.cefetmg.br
 <senha>
 ```
 
+
 ## Atualizar repositório
 
 ```
+$ cd site-compet
 $ git pull
 ```
 
@@ -34,6 +37,7 @@ $ git pull
 $ cd site-compet
 $ sudo ./run
 ```
+
 
 ## Referências
 
