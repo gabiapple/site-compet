@@ -107,10 +107,7 @@ p {
 	border-radius: 3px;
 	padding: 15px;
 	margin-bottom: 30px;
-	min-height: 230px;
-}
-.ex-members .card h5 {
-	visibility: hidden;
+	min-height: 200px;
 }
 
 .card > img {
@@ -129,4 +126,3 @@ p {
 }
 .row{
 	margin-top: 15px;
-}
